@@ -4,10 +4,10 @@
 var angiecastControllers = angular.module('angiecastControllers', []);
 
 /* Constructors functions for controllers */
-function ForecastCnstr($scope, $http, Forecast) {
-	if (navigator.geolocation){
+function mainCnstr($scope, Forecast) {
+  if (navigator.geolocation){
     navigator.geolocation.getCurrentPosition(function(position){
-      $scope.forecast = Forecast.getData($scope, position);
+      //$scope.forecast = Forecast.getData($scope, position);
     });
   }
   else {
@@ -16,6 +16,6 @@ function ForecastCnstr($scope, $http, Forecast) {
 }
 
 /* List of injected dependencies. Required for minification to work */
-ForecastCnstr.$inject = ['$scope', '$http', 'Forecast'];
+mainCnstr.$inject = ['$scope', 'Forecast'];
 
-angiecastControllers.controller('ForecastCtrl', ForecastCnstr);
+angiecastControllers.controller('mainController', mainCnstr);
