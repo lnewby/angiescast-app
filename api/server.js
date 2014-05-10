@@ -35,7 +35,8 @@ app.get('/api/forecast/:lat,:lng', function(req, res) {
           status: a.status,
 					priority: a.priority,
 					message: status.message,
-					sps: status.sps
+					sps: status.sps,
+          url: status.url
 				};
 			});
     }
@@ -74,7 +75,8 @@ app.get('/api/forecast/:lat,:lng', function(req, res) {
 				date: d.time,
 				summary: d.summary,
 				message: status.message,
-				sps: status.sps
+				sps: status.sps,
+        url: status.url
 			};
 		});
 
