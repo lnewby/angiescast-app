@@ -7,7 +7,7 @@ function weatherServiceCnstr($http, Forecast) {
 		restrict: 'E',
 		scope: {
 		},
-		templateUrl: 'assets/templates/winter.html',
+		templateUrl: 'assets/templates/widget-base.html',
 		link: function (scope, element, attr) {
 			if (navigator.geolocation){
 				navigator.geolocation.getCurrentPosition(function(position){

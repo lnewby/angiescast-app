@@ -38,33 +38,64 @@
   background-image: url(../images/may.jpg);
 }
 .week-forecast{
+	width: 930px;
+	clear: both;
 }
 
 .current-temp{
 	color: #FFF;
 	font-size: 9em;
 	font-weight: bold;
-	margin: 15px 15px 0px 15px;
 	line-height: 1em;
 	text-shadow: 2px 2px #aaa;
+	margin: 5px 30px;
+	width: 300px;
 }
 .daily-temps {
 	color: #FFF;
 	font-size: 1.2em;
 	text-shadow: 2px 2px #aaa;
+	width: 60px;
+	float: left;
 /*	font-weight: bold;*/
 }
 .city-name{
 	color: #FFF;
 	font-size: 3em;
 	font-weight: bold;
-	margin-left: 20px;
 	text-shadow: 2px 2px #aaa;
+	width: 300px;
+	margin-left: 30px;
 }
-.message{
+div.message{
 	color: #FFF;
 	font-size: 2em;
 	font-weight: bold;
 	margin-left: 20px;
 	text-shadow: 2px 2px #aaa;
+	width: 600px;
+	float: right;
+}
+div.message a {
+	color: #FFF;
+	width: 600px;
+}
+div.temp-city {
+	margin: 15px 15px 0px 15px;
+	width: 300px;
+	overflow: hidden;
+	height: 195px;
+	width:320px;
+}
+div.service-suggestion{
+	color: #FFF;
+	font-size: 2em;
+	font-weight: bold;
+	text-shadow: 2px 2px #aaa;
+	width: 600px;
+}
+div.service-response{
+	width: 600px;
+	float: right;
+	clear: right;
 }
