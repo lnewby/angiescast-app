@@ -1,13 +1,16 @@
 <div class="weatherservices">
 	<div class="container {{forecast.messages.0.imagestyle}}">
-		<div class="temp-city">
+		<table border="0"><tr><td>
+		<div class="temp-city" align="center">
 			<div class="current-temp">{{forecast.messages.0.currently.temperature | number:0}}F</div>
 			<div class="city-name">{{currentCity}}</div>
-		</div>
-		<div class="service-response">
+		</div></td>
+		<td><div class="service-response">
 			<div class="message"><a href="{{forecast.messages.0.url}}">{{forecast.messages.0.message}}</a></div>
 			<div class="service-suggestion">{{forecast.messages.0.sps.0}}</div>
-		</div>
+		</div></td></tr> </table>
+		
+	
 		<div class="week-forecast">
 			<div class="daily-temps">sun <br> {{forecast.messages.0.temperatureMax | number:0}} <br> {{forecast.messages.0.temperatureMin | number:0}}</div>
 			<div class="daily-temps">mon <br> {{forecast.messages.1.temperatureMax | number:0}} <br> {{forecast.messages.1.temperatureMin | number:0}}</div>
