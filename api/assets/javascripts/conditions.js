@@ -283,17 +283,17 @@ exports.Statuses = [{
   sps: ['Precision Automotive Service Inc', 'American Kitchen And Bath Inc']
 }, {
   status: 'february',
-  message: "February is the most coldest month of the year. Click here to Eliminate Squeaks and Creaks",
-  url: 'http://deals.angieslist.com/deal/199-for-two-hour-roof-maintenance-and-small-roof-repairs.htm?storefrontitemid=E72NJQOKVgES38o6HHt27Q%3D%3D&amp;source=7&amp;catid=112&amp;st=&amp;d=1&amp;k=roof&amp;l=1+Monument+way%2C+Indianapolis%2C+IN%2C+46202&amp;o=0&amp;s=0&amp;r=16&amp;ls=1+Monument+way%2C+Indianapolis%2C+IN%2C+46202&amp;v=16165158&amp;y=7816e62fd26d3c08&amp;z=755e31149164cfc5&amp;i=2&amp;g=a&amp;w=71',
+  message: "February is the most coldest month of the year. Freezing temperatures can produce big, costly messes",
+  url: 'http://deals.angieslist.com/deal/110-plumbing-service-call-plus-one-hour-labor.htm?storefrontitemid=MP5iXSkS1ZeURdNI3Iw3Cg%3D%3D&source=7&catid=107&st=&c=107&d=1&k=plumbing&l=550+College+Ave%2C+Palo+Alto%2C+CA%2C+94306&o=0&s=0&r=16&ls=550+College+Ave%2C+Palo+Alto%2C+CA%2C+94306&v=11638909&y=39feff123f25cfec&z=f95748d0254800a&i=0&g=a&w=216',
   sps: ['Precision Automotive Service Inc', 'American Kitchen And Bath Inc']
 }, {
   status: 'march',
-  message: "Is your hoe prepared for spring. Click here to Eliminate Squeaks and Creaks",
-  url: 'http://deals.angieslist.com/deal/199-for-two-hour-roof-maintenance-and-small-roof-repairs.htm?storefrontitemid=E72NJQOKVgES38o6HHt27Q%3D%3D&amp;source=7&amp;catid=112&amp;st=&amp;d=1&amp;k=roof&amp;l=1+Monument+way%2C+Indianapolis%2C+IN%2C+46202&amp;o=0&amp;s=0&amp;r=16&amp;ls=1+Monument+way%2C+Indianapolis%2C+IN%2C+46202&amp;v=16165158&amp;y=7816e62fd26d3c08&amp;z=755e31149164cfc5&amp;i=2&amp;g=a&amp;w=71',
+  message: 'It is march. Heres Help to Prevent Water Damage',
+  url: 'http://deals.angieslist.com/deal/69-for-a-mold-and-water-damage-inspection-plus-up-to-150-remediation-credit.htm?storefrontitemid=Q1%2Fj%2FulX%2Fwsv%2BRiAi52tVQ%3D%3D&source=7&catid=407&st=&d=1&k=water+damage&l=550+College+Ave%2C+Palo+Alto%2C+CA%2C+94306&o=0&s=0&r=16&ls=550+College+Ave%2C+Palo+Alto%2C+CA%2C+94306&v=11638909&y=1fef11290c2a4cc2&z=620c15f8ab5e50a9&i=1&g=a&w=33',
   sps: ['Precision Automotive Service Inc', 'American Kitchen And Bath Inc']
 }, {
   status: 'april',
-  message: "Is your hoe prepared for spring. Click here to Eliminate Squeaks and Creaks",
+  message: "Is your house prepared for spring. Assess your risk for hail damage",
   url: 'http://deals.angieslist.com/deal/199-for-two-hour-roof-maintenance-and-small-roof-repairs.htm?storefrontitemid=E72NJQOKVgES38o6HHt27Q%3D%3D&amp;source=7&amp;catid=112&amp;st=&amp;d=1&amp;k=roof&amp;l=1+Monument+way%2C+Indianapolis%2C+IN%2C+46202&amp;o=0&amp;s=0&amp;r=16&amp;ls=1+Monument+way%2C+Indianapolis%2C+IN%2C+46202&amp;v=16165158&amp;y=7816e62fd26d3c08&amp;z=755e31149164cfc5&amp;i=2&amp;g=a&amp;w=71',
   sps: ['Precision Automotive Service Inc', 'American Kitchen And Bath Inc']
 }, {
