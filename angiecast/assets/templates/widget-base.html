@@ -7,18 +7,18 @@
 		</div></td>
 		<td><div class="service-response">
 			<div class="message"><a href="{{forecast.messages.0.url}}">{{forecast.messages.0.message}}</a></div>
-			<div class="service-suggestion">{{forecast.messages.0.sps.0}}</div>
+			<div class="service-suggestion"><a href="{{forecast.messages.0.url}}">{{forecast.messages.0.sps.0}}</a></div>
 		</div></td></tr> </table>
-		
-	
+
+
 		<div class="week-forecast">
-			<div class="daily-temps">sun <br> {{forecast.messages.0.temperatureMax | number:0}} <br> {{forecast.messages.0.temperatureMin | number:0}}</div>
-			<div class="daily-temps">mon <br> {{forecast.messages.1.temperatureMax | number:0}} <br> {{forecast.messages.1.temperatureMin | number:0}}</div>
-			<div class="daily-temps">tue <br> {{forecast.messages.2.temperatureMax | number:0}} <br> {{forecast.messages.2.temperatureMin | number:0}}</div>
-			<div class="daily-temps">wed <br> {{forecast.messages.3.temperatureMax | number:0}} <br> {{forecast.messages.3.temperatureMin | number:0}}</div>
-			<div class="daily-temps">thr <br> {{forecast.messages.4.temperatureMax | number:0}} <br> {{forecast.messages.4.temperatureMin | number:0}}</div>
-			<div class="daily-temps">fri <br> {{forecast.messages.5.temperatureMax | number:0}} <br> {{forecast.messages.5.temperatureMin | number:0}}</div>
-			<div class="daily-temps">sat <br> {{forecast.messages.6.temperatureMax | number:0}} <br> {{forecast.messages.6.temperatureMin | number:0}}</div>
+			<div class="daily-temps">SUN <br> {{forecast.messages.0.temperatureMax | number:0}} <br> {{forecast.messages.0.temperatureMin | number:0}}</div>
+			<div class="daily-temps">MON <br> {{forecast.messages.1.temperatureMax | number:0}} <br> {{forecast.messages.1.temperatureMin | number:0}}</div>
+			<div class="daily-temps">TUE <br> {{forecast.messages.2.temperatureMax | number:0}} <br> {{forecast.messages.2.temperatureMin | number:0}}</div>
+			<div class="daily-temps">WED <br> {{forecast.messages.3.temperatureMax | number:0}} <br> {{forecast.messages.3.temperatureMin | number:0}}</div>
+			<div class="daily-temps">THR <br> {{forecast.messages.4.temperatureMax | number:0}} <br> {{forecast.messages.4.temperatureMin | number:0}}</div>
+			<div class="daily-temps">FRI <br> {{forecast.messages.5.temperatureMax | number:0}} <br> {{forecast.messages.5.temperatureMin | number:0}}</div>
+			<div class="daily-temps">SAT <br> {{forecast.messages.6.temperatureMax | number:0}} <br> {{forecast.messages.6.temperatureMin | number:0}}</div>
 		</div>
 	</div>
 </div>

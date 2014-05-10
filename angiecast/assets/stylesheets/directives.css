@@ -77,7 +77,7 @@ div.message{
 	width: 600px;
 	float: right;
 }
-div.message a {
+div.message a, div.message a:hover, div.message a:visited, div.service-suggestion a:visited, div.service-suggestion a:hover {
 	color: #FFF;
 	width: 600px;
 }
@@ -90,7 +90,7 @@ div.temp-city {
 }
 div.service-suggestion{
 	color: #FFF;
-	font-size: 2em;
+	font-size: 3em;
 	font-weight: bold;
 	text-shadow: 2px 2px #aaa;
 	width: 600px;
@@ -99,4 +99,11 @@ div.service-response{
 	width: 600px;
 	float: right;
 	clear: right;
+}
+.tag-line{
+	margin: 10px 0px 40px 20px;
+	color: #aaa;
+}
+.branding {
+	color: #fff;
 }
