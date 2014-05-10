@@ -4,7 +4,7 @@ var bodyParser = require('body-parser');
 var _ = require('lodash');
 var app = express();
 var port = 9001;
-var conditions = require('./conditions.js');
+var conditions = require('./assets/javascripts/conditions.js');
 var options = {
   APIKey: '89615b604ffc8435ec4c5477f912d638'
 };
@@ -32,6 +32,7 @@ app.get('/api/forecast/:lat,:lng', function(req, res) {
 				});
 
 				return {
+          status: a.status,
 					priority: a.priority,
 					message: status.message,
 					sps: status.sps
@@ -66,6 +67,7 @@ app.get('/api/forecast/:lat,:lng', function(req, res) {
 			), 'priority'));
 
 			return {
+        imagestyle: status.status+"-bg",
         currently: data.currently,
         temperatureMin: d.temperatureMin,
         temperatureMax: d.temperatureMax,

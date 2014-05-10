@@ -5,7 +5,8 @@ var angiecastDirectives = angular.module('angiecastDirectives', []);
 function weatherServiceCnstr($http, Forecast) {
 	return {
 		restrict: 'E',
-		scope: {},
+		scope: {
+		},
 		templateUrl: 'assets/templates/winter.html',
 		link: function (scope, element, attr) {
 			if (navigator.geolocation){
@@ -17,7 +18,7 @@ function weatherServiceCnstr($http, Forecast) {
 						url: 'http://maps.googleapis.com/maps/api/geocode/json?latlng='+position.coords.latitude+','+position.coords.longitude+'&sensor=true'
 					}).
 					success(function(data) {
-						scope.currentCity = data.results[0].address_components[3].long_name;
+						scope.currentCity = data.results[0].address_components[3].short_name;
 					});
 				});
 			}

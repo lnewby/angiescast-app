@@ -3,13 +3,68 @@
 	height: 366px;
 	width: 960px;
 	border: solid 1px #FF9;
-	border-radius: 10px;
-	-moz-border-radius: 10px;
-	-webkit-border-radius: 10px;
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
 	overflow: hidden;
 }
 .weatherservices .container{
-	background-image: url(../images/snow1.jpg);
 	height: 366px;
 	width: 960px;
+}
+
+.freezing-bg{
+	background-image: url(../images/snow1.jpg);
+}
+.heavyrain-bg{
+	background-image: url(../images/rain1.jpg);
+}
+.heavysnow-bg{
+	background-image: url(../images/snow1.jpg);
+}
+.highwind-bg{
+	background-image: url(../images/wind1.jpg);
+}
+.winter-bg{
+	background-image: url(../images/winter1.jpg);
+}
+.allergy-bg{
+	background-image: url(../images/allergy1.jpg);
+}
+.default-bg{
+	background-image: url(../images/springday.jpg);
+}
+.may-bg{
+  background-image: url(../images/may.jpg);
+}
+.week-forecast{
+}
+
+.current-temp{
+	color: #FFF;
+	font-size: 9em;
+	font-weight: bold;
+	margin: 15px 15px 0px 15px;
+	line-height: 1em;
+	text-shadow: 2px 2px #aaa;
+}
+.daily-temps {
+	color: #FFF;
+	font-size: 1.2em;
+	text-shadow: 2px 2px #aaa;
+/*	font-weight: bold;*/
+}
+.city-name{
+	color: #FFF;
+	font-size: 3em;
+	font-weight: bold;
+	margin-left: 20px;
+	text-shadow: 2px 2px #aaa;
+}
+.message{
+	color: #FFF;
+	font-size: 2em;
+	font-weight: bold;
+	margin-left: 20px;
+	text-shadow: 2px 2px #aaa;
 }
