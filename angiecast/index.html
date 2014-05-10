@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html ng-app="angiecastApp">
+  <head>
+    <title>AngieCast | Forecast based service suggestion!</title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/stylesheets/directives.css">
+  </head>
+  <body>
+    <h1>Angiecast.io</h1>
+    <weatherservices></weatherservices>
+    <div ng-controller="ForecastCtrl">{{forecast}}</div>
+    <button type="button" class="btn btn-default">Default</button>
+    <script src="bower_components/jquery/dist/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="node_modules/requirejs/require.js"></script>
+    <script src="bower_components/angular/angular.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="bower_components/angular-resource/angular-resource.js"></script>
+    <script src="assets/javascripts/directives.js"></script>
+    <script src="assets/javascripts/controllers.js"></script>
+    <script src="assets/javascripts/services.js"></script>
+    <script src="assets/javascripts/angiecast_app.js"></script>
+  </body>
+</html>

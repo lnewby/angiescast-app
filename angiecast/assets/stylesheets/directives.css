@@ -1,0 +1,15 @@
+/* Directives styles */
+.weatherservices {
+	height: 366px;
+	width: 960px;
+	border: solid 1px #FF9;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	overflow: hidden;
+}
+.weatherservices .container{
+	background-image: url(../images/snow1.jpg);
+	height: 366px;
+	width: 960px;
+}
