@@ -1,13 +1,18 @@
 <div class="weatherservices">
 	<div class="container">
-		<div style="color: #FFF; font-size: 6em;;">{{forecast.currently.temperature}}</div>
+		<div style="color: #FFF; font-size: 6em;;">{{forecast.messages.0.currently.temperature}}</div>
 		<div style="color: #FFF; font-size: 2em;;">{{currentCity}}</div>
-		<div style="color: #FFF; font-size: 1em;;">sun:{{forecast.daily.data.0.temperatureMax}} - {{forecast.daily.data.0.temperatureMin}}</div>
-		<div style="color: #FFF; font-size: 1em;;">mon:{{forecast.daily.data.1.temperatureMax}} - {{forecast.daily.data.1.temperatureMin}}</div>
-		<div style="color: #FFF; font-size: 1em;;">tue:{{forecast.daily.data.2.temperatureMax}} - {{forecast.daily.data.2.temperatureMin}}</div>
-		<div style="color: #FFF; font-size: 1em;;">wed:{{forecast.daily.data.3.temperatureMax}} - {{forecast.daily.data.3.temperatureMin}}</div>
-		<div style="color: #FFF; font-size: 1em;;">thr:{{forecast.daily.data.4.temperatureMax}} - {{forecast.daily.data.4.temperatureMin}}</div>
-		<div style="color: #FFF; font-size: 1em;;">fri:{{forecast.daily.data.5.temperatureMax}} - {{forecast.daily.data.5.temperatureMin}}</div>
-		<div style="color: #FFF; font-size: 1em;;">sat:{{forecast.daily.data.6.temperatureMax}} - {{forecast.daily.data.6.temperatureMin}}</div>
+		<div>
+			<div style="color: #FFF; font-size: 1em;;">sun:{{forecast.messages.0.temperatureMax}} - {{forecast.messages.0.temperatureMin}}</div>
+			<div style="color: #FFF; font-size: 1em;;">mon:{{forecast.messages.1.temperatureMax}} - {{forecast.messages.1.temperatureMin}}</div>
+			<div style="color: #FFF; font-size: 1em;;">tue:{{forecast.messages.2.temperatureMax}} - {{forecast.messages.2.temperatureMin}}</div>
+			<div style="color: #FFF; font-size: 1em;;">wed:{{forecast.messages.3.temperatureMax}} - {{forecast.messages.3.temperatureMin}}</div>
+			<div style="color: #FFF; font-size: 1em;;">thr:{{forecast.messages.4.temperatureMax}} - {{forecast.messages.4.temperatureMin}}</div>
+			<div style="color: #FFF; font-size: 1em;;">fri:{{forecast.messages.5.temperatureMax}} - {{forecast.messages.5.temperatureMin}}</div>
+			<div style="color: #FFF; font-size: 1em;;">sat:{{forecast.messages.6.temperatureMax}} - {{forecast.messages.6.temperatureMin}}</div>
+		</div>
+		<div>{{forecast.messages.0.url}}</div>
+		<div>{{forecast.messages.0.message}}</div>
+		<div>{{forecast.messages.0.sps.0}}</div>
 	</div>
 </div>
