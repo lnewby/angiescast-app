@@ -5,7 +5,7 @@ Concept for a weather based service suggestions API. Just place the <weatherServ
 
 This example use a NodeJS server to serve up the API endpoints and website.
 
-###Start the api service:
+### Start the api service:
 
 ```
 $ cd api/
@@ -28,14 +28,14 @@ alerts: [...],
 flags: {...}
 }
 ```
-###Start the web service:
+### Start the web service:
 
 ```
 $ cd ../angiecast/
 $ npm install
 $ npm start
 ```
-###View the demo of Angiecast widget concept:
+### View the demo of Angiecast widget concept:
 ```
 $ open index.html
 
